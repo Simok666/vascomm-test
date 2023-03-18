@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->string('deskripsi');
-            $table->string('tingkat_pendidikan', '4');
+            $table->string('tingkat_pendidikan');
             $table->date('tanggal_buka');
             $table->date('tanggal_tutup');
             $table->integer('kuota');
